@@ -11,6 +11,6 @@ const DoctorSchema = mongoose.Schema({
     fee: Number,
 });
 
-const DoctorModel = mongoose.model('doctors', DoctorSchema);
+const DoctorModel = mongoose.model('appointments', DoctorSchema);
 
 module.exports = { DoctorModel };

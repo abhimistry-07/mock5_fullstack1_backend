@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 });
 
 app.use('/users', UserRouter);
-app.use('/doctors', DoctorRouter);
+app.use('/appointments', DoctorRouter);
 
 app.listen(process.env.PORT, async () => {
     try {
